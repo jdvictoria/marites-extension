@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Marites",
+    "description": "BERT-ified News Credibility Checker",
+    "version": "1.0.5",
+    "icons": {
+        "16": "icons/icon-16.png",
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png"
+    },
+    "options_page": "settings/index.html",
+    "action": {
+        "default_title": "Marites",
+        "default_popup": "popup/index.html"
+    },
+    "permissions": [
+        "scripting",
+        "https://facebook.com/*",
+        "activeTab"
+    ]
+}
